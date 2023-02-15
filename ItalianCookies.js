@@ -23,6 +23,5 @@ ItalianCookies =
         Game.NewUpgradeCookie({name:'Dropplet'          ,desc:'Why limit yourself to circular cookies.'             ,icon:[4,0,ItalianCookies.piconURL]  ,power:3,	price:	ItalianCookies.cookieprice*10000    ,});
         //LocalizeUpgradesAndAchievs()
     },
-    check
 }
 Game.registerMod(ItalianCookies.modname,ItalianCookies);
