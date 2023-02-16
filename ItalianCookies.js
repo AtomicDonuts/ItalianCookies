@@ -14,7 +14,7 @@ ItalianCookies =
     load:function(str){
         //WIP
     },
-    cookieprice: 999999999999999*5,//Same price as the Box of Brand Cookies
+    cookieprice: 999999999999999*5,//Same price as the Box of Brand Cookies' cookies
     //piconURL: "https://i.imgur.com/Lq2bpNK.png", v1
     piconURL: "https://i.imgur.com/od1L0OJ.png", //v2 i dont really like the box pixelart, i will change it asap
     CookiesUpgradeMade: [],
