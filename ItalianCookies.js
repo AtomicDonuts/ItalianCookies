@@ -1,11 +1,12 @@
 ItalianCookies = 
 {
     modname: "Italian Cookies",
+    savecheck: false,
     init:function(){
         //Game.registerHook('create',function(){Game.mods[ItalianCookies.modname].newupgrade();}); //Create Hooks doesnt work with CCMM :c
         ItalianCookies.newprestigeupg();
         ItalianCookies.newupgrades(); 
-        Game.registerHook('check',function(){ItalianCookies.savestate();});
+        if(ItalianCookies.savecheck) Game.registerHook('check',function(){ItalianCookies.savestate();});
         ItalianCookies.notify("Italian Cookies is loaded <q>Mamma Mia!</q>")
     },
     save:function(){
@@ -20,6 +21,8 @@ ItalianCookies =
         if(data.littlebuttons)          {Game.Upgrades["Little Buttons"].unlocked = 1;           Game.Upgrades["Little Buttons"].bought=1 }
         if(data.cuddly)                 {Game.Upgrades["Cuddly"].unlocked = 1;                   Game.Upgrades["Cuddly"].bought=1 }
         if(data.dropplet)               {Game.Upgrades["Dropplet"].unlocked = 1;                 Game.Upgrades["Dropplet"].bought=1 }
+        ItalianCookies.savecheck = true
+        console.log("IC SaveFile Loaded")
     },
     cookieprice: 999999999999999*5,//Same price as the Box of Brand Cookies
     //piconURL: "https://i.imgur.com/Lq2bpNK.png", v1
