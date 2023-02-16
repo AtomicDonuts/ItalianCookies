@@ -2,16 +2,14 @@ ItalianCookies =
 {
     modname: "Italian Cookies",
     init:function(){
-        //this function is called as soon as the mod is registered
-        //declare hooks here
-        Game.registerHook('create',function(){Game.mods[ItalianCookies.modname].newupgrade();});
+        //Game.registerHook('create',function(){Game.mods[ItalianCookies.modname].newupgrade();}); 
+        Game.mods[ItalianCookies.modname].newupgrade(); //Since it doesnt work yet
     },
     save:function(){
-        //use this to store persistent data associated with your mod
-        return 'a string to be saved';
+        //WIP
     },
     load:function(str){
-        //do stuff with the string data you saved previously
+        //WIP
     },
     cookieprice: 10,
     piconURL: "https://i.imgur.com/Lq2bpNK.png",
