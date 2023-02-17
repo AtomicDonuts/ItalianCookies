@@ -7,8 +7,7 @@ ItalianCookies =
         ItalianCookies.newprestigeupg();
         ItalianCookies.newupgrades(); 
         //if(ItalianCookies.savecheck) 
-        //Game.registerHook('check',function(){ItalianCookies.savestate();});	
-	ItalianCookies.load();
+        Game.registerHook('check',function(){ItalianCookies.savestate();});	
         ItalianCookies.notify("Italian Cookies is loaded <q>Mamma Mia!</q>")
     },
     save:function(){
