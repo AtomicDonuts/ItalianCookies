@@ -7,10 +7,11 @@ ItalianCookies =
         ItalianCookies.newprestigeupg();
         ItalianCookies.newupgrades(); 
         //if(ItalianCookies.savecheck) 
-        Game.registerHook('check',function(){ItalianCookies.savestate();});
+        //Game.registerHook('check',function(){ItalianCookies.savestate();});
         ItalianCookies.notify("Italian Cookies is loaded <q>Mamma Mia!</q>")
     },
     save:function(){
+        ItalianCookies.savestate();
         return JSON.stringify(ItalianCookies.saveobj)
     },
     load:function(str){
@@ -63,6 +64,13 @@ ItalianCookies =
         //dropplet: 0,
     },
     savestate: function(){
+        /*ItalianCookies.saveobj.box = Game.Upgrades["Box of Italian Cookies"].bought
+        ItalianCookies.saveobj.stardust = Game.Upgrades["Stardust Cookies"].bought
+        ItalianCookies.saveobj.pingo = Game.Upgrades["Pingo"].bought
+        ItalianCookies.saveobj.littlebuttons = Game.Upgrades["Little Buttons"].bought
+        ItalianCookies.saveobj.cuddly = Game.Upgrades["Cuddly"].bought
+        ItalianCookies.saveobj.dropplet = Game.Upgrades["Dropplet"].bought
+        */
         if( Game.Upgrades["Box of Italian Cookies"].bought == 1) ItalianCookies.saveobj.box = 1
         if( Game.Upgrades["Stardust Cookies"].bought == 1) ItalianCookies.saveobj.stardust = 1
         if( Game.Upgrades["Pingo"].bought == 1) ItalianCookies.saveobj.pingo = 1
@@ -73,4 +81,3 @@ ItalianCookies =
     
 }
 Game.registerMod(ItalianCookies.modname,ItalianCookies);
-
