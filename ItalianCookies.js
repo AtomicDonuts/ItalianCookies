@@ -23,8 +23,9 @@ ItalianCookies =
         if(data.cuddly)                 {Game.Upgrades["Cuddly"].unlocked = 1;                   Game.Upgrades["Cuddly"].bought=1 }
         if(data.dropplet)               {Game.Upgrades["Dropplet"].unlocked = 1;                 Game.Upgrades["Dropplet"].bought=1 }
         //ItalianCookies.savecheck = true
-        ItalianCookies.saveobj = data
+        //ItalianCookies.saveobj = data
         console.log("IC SaveFile Loaded")
+        console.log(data)
     },
     cookieprice: 999999999999999*5,//Same price as the Box of Brand Cookies
     //piconURL: "https://i.imgur.com/Lq2bpNK.png", v1
