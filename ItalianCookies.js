@@ -56,15 +56,16 @@ ItalianCookies =
         Game.Notify("ItalianCookies",text,[0,1,ItalianCookies.piconURL]); //Flag Icon WIP
       },
     saveobj: {
-        //box: 0,
-        //stardust: 0,
-        //pingo: 0,
-        //littlebuttons: 0,
-        //cuddly: 0,
-        //dropplet: 0,
+        box: 0,
+        stardust: 0,
+        pingo: 0,
+        littlebuttons: 0,
+        cuddly: 0,
+        dropplet: 0,
     },
     savestate: function(){
-        /*ItalianCookies.saveobj.box = Game.Upgrades["Box of Italian Cookies"].bought
+        /*
+        ItalianCookies.saveobj.box = Game.Upgrades["Box of Italian Cookies"].bought
         ItalianCookies.saveobj.stardust = Game.Upgrades["Stardust Cookies"].bought
         ItalianCookies.saveobj.pingo = Game.Upgrades["Pingo"].bought
         ItalianCookies.saveobj.littlebuttons = Game.Upgrades["Little Buttons"].bought
@@ -77,6 +78,7 @@ ItalianCookies =
         if( Game.Upgrades["Little Buttons"].bought == 1) ItalianCookies.saveobj.littlebuttons = 1
         if( Game.Upgrades["Cuddly"].bought == 1) ItalianCookies.saveobj.cuddly = 1
         if( Game.Upgrades["Dropplet"].bought == 1) ItalianCookies.saveobj.dropplet = 1
+        
     },
     
 }
