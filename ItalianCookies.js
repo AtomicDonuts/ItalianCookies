@@ -4,6 +4,7 @@ ItalianCookies =
     //savecheck: false,
     init:function(){
         //Game.registerHook('create',function(){Game.mods[ItalianCookies.modname].newupgrade();}); //Create Hooks doesnt work with CCMM :c
+	ItalianCookies.load();
         ItalianCookies.newprestigeupg();
         ItalianCookies.newupgrades(); 
         //if(ItalianCookies.savecheck) 
