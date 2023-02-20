@@ -49,7 +49,7 @@ ItalianCookies =
         for (var i in ItalianCookies.CookiesUpgradeMade){
             Game.cookieUpgrades.push(ItalianCookies.CookiesUpgradeMade[i]); //to active the cps calculation
         }
-		for (var i in Game.UnlockAt){Game.Upgrades[Game.UnlockAt[i].name].unlockAt=Game.UnlockAt[i];} //for the tooltips in the menu
+	for (var i in Game.UnlockAt){Game.Upgrades[Game.UnlockAt[i].name].unlockAt=Game.UnlockAt[i];} //for the tooltips in the menu
     },
     notify: function(text) {
         console.log("ItalianCookies: "+text);
