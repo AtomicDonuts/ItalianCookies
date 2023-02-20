@@ -25,9 +25,7 @@ ItalianCookies =
         //console.log(data)
     },
     cookieprice: 999999999999999*5,//Same price as the Box of Brand Cookies
-    //piconURL: "https://i.imgur.com/Lq2bpNK.png", v1
-    //piconURL: "https://i.imgur.com/od1L0OJ.png", v2 i dont really like the box pixelart, i will change it asap
-    piconURL: "https://i.imgur.com/ElTSiOW.png", //v3
+    piconURL: "https://atomicdonuts.github.io/ItalianCookies/Icons/ItalianCookies.png",
     CookiesUpgradeMade: [],
     newprestigeupg:function(){
         new Game.Upgrade('Box of Italian Cookies',"Box of famous Italian brand cookies <q>Alberto! Come at look at the cookies!.</q>",500,[0,1,ItalianCookies.piconURL]); BoIC = Game.last
