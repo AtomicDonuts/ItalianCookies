@@ -5,7 +5,7 @@ ItalianCookies =
         ItalianCookies.newprestigeupg();
         ItalianCookies.newupgrades(); 
         ItalianCookies.notify("Italian Cookies is loaded <q>Mamma Mia!</q>");
-        if(Game.bakeryName === "Pascal") {Game.Upgrades["AtomicDonut"].unlocked = 1;Game.Upgrades["AtomicDonut"].bought=1;ItalianCookies.notify("Hey, its me! <q>Is it dought?</q>")}
+        if(Game.bakeryName === "Pascal") {Game.Upgrades["AtomicDonut"].unlocked = 1;Game.Upgrades["AtomicDonut"].bought=1;ItalianCookies.notify("Hey, its me! <q>Is it dough?</q>")}
 
     },
     save:function(){
