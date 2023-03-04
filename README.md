@@ -70,6 +70,9 @@ var code = "(" + (function() {
 
 window.eval(code);
 ```
+## What about other countries?
+If your country have some branded cookies that are not exported or just not that famous in other country, dm me on discord or open an Issue, we can make togheter *country* Cookies. I'm developing a little framework that will help with that!
+
 ## Authors
 
 - [AtomicDonuts](https://www.github.com/AtomicDonuts)
