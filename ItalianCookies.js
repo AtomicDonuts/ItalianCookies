@@ -28,7 +28,7 @@ ItalianCookies =
     piconURL: "https://atomicdonuts.github.io/ItalianCookies/Icons/ItalianCookies.png",
     CookiesUpgradeMade: [],
     newprestigeupg:function(){
-        new Game.Upgrade('Box of Italian Cookies',"Box of famous Italian brand cookies <q>Alberto! Come at look at the cookies!.</q>",500,[0,1,ItalianCookies.piconURL]); BoIC = Game.last
+        new Game.Upgrade('Box of Italian Cookies',"Contains an assortment of famous Italian brand cookies <q>Alberto! Come at look at the cookies!.</q>",500,[0,1,ItalianCookies.piconURL]); BoIC = Game.last
         BoIC.pool='prestige';
         BoIC.parents=[Game.Upgrades["Box of brand biscuits"]];
         BoIC.posX = -70
